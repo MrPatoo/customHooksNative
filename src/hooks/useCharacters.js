@@ -1,3 +1,4 @@
+// src/hooks/useCharacters.js
 import { useState, useEffect } from 'react';
 
 export function useCharacters(initialPage = 1, initialFilters = {}) {
@@ -46,5 +47,6 @@ export function useCharacters(initialPage = 1, initialFilters = {}) {
     loadCharacters,
     setPage,
     setFilters,
+    setCharacters, 
   };
 }
